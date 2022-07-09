@@ -5,7 +5,7 @@ using UnityEngine;
 public abstract class BaseFigure : MonoBehaviour
 {
     protected int initialRow;
-    private string m_color;
+    [SerializeField] private string m_color;
 
     public string figureName { get; protected set; }
     public int weight { get; protected set; }
