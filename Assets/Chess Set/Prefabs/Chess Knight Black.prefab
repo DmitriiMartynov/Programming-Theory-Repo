@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33000011499604944}
   - component: {fileID: 23000013765616354}
   - component: {fileID: 1503696375}
+  - component: {fileID: 1503696379}
   m_Layer: 0
   m_Name: Chess Knight Black
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1000010201698906}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 15, y: 15, z: 15}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -97,3 +98,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_color: Black
+--- !u!65 &1503696379
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010201698906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04097578, y: 0.038559113, z: 0.06580231}
+  m_Center: {x: -0.0012083389, y: 0, z: 0.032901462}
