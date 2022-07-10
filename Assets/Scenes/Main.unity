@@ -1415,6 +1415,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameCamera: {fileID: 613066949}
   description: {fileID: 1051999615}
+  redSphere: {fileID: 4548658346925972617, guid: 1265963a0953fea44965a2a3414df85f, type: 3}
+  blueSphere: {fileID: 8738582630829786238, guid: ace5db1c2a1a10d4d950f070219658fc, type: 3}
 --- !u!4 &1742127259
 Transform:
   m_ObjectHideFlags: 0
